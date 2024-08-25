@@ -1,24 +1,46 @@
-# Nuxt 3 Minimal Starter
+# TLV300
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Description
 
-## Setup
+TLV300 Home Assignment using [Nuxt V3](https://nuxt.com/) and [Primevue](https://primevue.org/)
 
-Make sure to install the dependencies:
+### Getting Started
 
-```bash
-# npm
-npm install
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies by running the following commands:
 
-# pnpm
-pnpm install
+    ```bash 
+    #npm
+    npm install
+    ```
 
-# yarn
-yarn install
+    ```bash
+    #pnpm
+    pnpm install
+    ```
 
-# bun
-bun install
-```
+    ```bash
+    #yarn
+    yarn install
+    ```
+
+3. Obtain your free Whois API key from WhoisXML API. Follow these steps:
+
+   * Visit [WhoisXML](https://main.whoisxmlapi.com/) and sign up for an account.
+   * Once logged in, navigate to settings under your user after logging in.
+   * Copy or generate a new API key
+
+4. Copy `env.example` to `.env`
+
+    ```bash
+    # linux/bash
+    cp .env.example .env
+    ```
+
+    ```bash
+    # windows/cmd
+    copy .env.example .env
+    ```
 
 ## Development Server
 
